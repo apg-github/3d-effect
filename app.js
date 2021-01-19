@@ -26,6 +26,7 @@ container.addEventListener("mouseenter", (e) => {
 container.addEventListener("mouseleave", (e) => {
   card.style.transition = "all 0.5s ease";
   card.style.transform = "rotateY(0deg) rotateX(0deg)";
+
   title.style.transform = "translateZ(0px)";
   volvo.style.transform = "translateZ(0px) rotateZ(0deg)";
   purchase.style.transform = "translateZ(0px)";
