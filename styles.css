@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  transform-style: preserve-3d;
+  min-height: 80vh;
+  width: 30rem;
+  border-radius: 30px;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+.volvo {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.volvo img {
+  width: 25rem;
+  z-index: 2;
+  transition: all 0.75s ease-out;
+}
+
+.circle {
+  width: 15rem;
+  height: 15rem;
+  background: linear-gradient(
+    to right,
+    rgba(230, 227, 227, 0.75),
+    rgba(15, 15, 15, 0.75)
+  );
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.info h1 {
+  font-size: 3rem;
+  transition: all 0.75s ease-out;
+}
+
+.info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  color: rgba(190, 82, 82, 1);
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
+}
+
+.engines {
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.75s ease-out;
+}
+
+.engines button {
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  color: rgb(211, 43, 43);
+}
+
+button.active {
+  background: rgba(42, 43, 41, 0.842);
+  color: white;
+}
+
+.purchase {
+  margin-top: 5rem;
+  transition: all 0.75s ease-out;
+}
+
+.purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: seagreen;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.75s ease-out;
+}
