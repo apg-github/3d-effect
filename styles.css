@@ -38,7 +38,7 @@ body {
 .volvo img {
   width: 25rem;
   z-index: 2;
-  transition: all 0.75s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .circle {
@@ -56,7 +56,7 @@ body {
 
 .info h1 {
   font-size: 3rem;
-  transition: all 0.75s ease-out;
+  transition: all 1s ease-out;
 }
 
 .info h3 {
@@ -64,13 +64,13 @@ body {
   padding: 2rem 0;
   color: rgba(190, 82, 82, 1);
   font-weight: lighter;
-  transition: all 0.75s ease-out;
+  transition: all 1s ease-out;
 }
 
 .engines {
   display: flex;
   justify-content: space-between;
-  transition: all 0.75s ease-out;
+  transition: all 1s ease-out;
 }
 
 .engines button {
@@ -92,7 +92,7 @@ button.active {
 
 .purchase {
   margin-top: 5rem;
-  transition: all 0.75s ease-out;
+  transition: all 1s ease-out;
 }
 
 .purchase button {
@@ -103,5 +103,5 @@ button.active {
   color: white;
   border-radius: 30px;
   cursor: pointer;
-  transition: all 0.75s ease-out;
+  transition: all 1s ease-out;
 }
